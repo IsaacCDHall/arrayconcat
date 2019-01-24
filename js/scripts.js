@@ -7,7 +7,7 @@ $(function(){
       var selected = parseInt($(this).val());
       console.log(selected);
 
-       x = sums.reduce(add,0);
+       x = sums.reduce(add,1);
       sums.push(selected);
       console.log(sums);
       console.log(x);
