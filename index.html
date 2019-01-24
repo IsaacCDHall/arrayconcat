@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Stress test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </head>
+  <body>
+    <h1 class="jumbotron">How stressed are you?</h1>
+      <div class="container">
+        <form action="index.html" method="post">
+          <h3>What signs of stress do you display</h3>
+          <div class="signs">
+            <input type="checkbox" name="signs" value="1">Loss of sleep
+            <input type="checkbox" name="signs" value="1">Irritability
+            <input type="checkbox" name="signs" value="1">Feeling Overwhelmed
+
+          </div>
+          <div class="health">
+            <h3>What symptoms of stress do you display</h3>
+            <input type="checkbox" name="health" value="1">High Blood Pressure
+            <input type="checkbox" name="health" value="1">Anxiety
+            <input type="checkbox" name="health" value="1">Dehydration
+          </div>
+          <div class="coping">
+            <h3>How do you manage your stress?</h3>
+            <input type="checkbox" name="coping" value="-1">Meditation
+            <input type="checkbox" name="coping" value="-1">Pet an animal
+            <input type="checkbox" name="coping" value="-1">Take a vacation
+            <input type="checkbox" name="coping" value="-1">Sleep for a very long time
+          </div>
+
+          <button type="submit" name="button" class="btn bg-success">submit</button>
+        </form>
+
+        <div class="suggestions">
+          <p class="ok"> Should be here</p>
+          <p class="bad"></p>
+          <p class="terrible"></p>
+
+        </div>
+
+
+        </div>
+    </div>
+  </body>
+</html>
